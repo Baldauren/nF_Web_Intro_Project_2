@@ -1,0 +1,53 @@
+/* * descr ------------------------------------------- */
+.descr {
+  background-color: #e1dee7;
+}
+.descr__wrapper {
+  padding: 100px 0px;
+}
+.descr__item {
+  margin: 0 auto;
+}
+.descr__text {
+  font-family: "Inter";
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+.descr__title {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 700;
+}
+.descr__info {
+  display: flex;
+  justify-content: space-between;
+  font-display: row;
+  margin-top: 85px;
+}
+.descr__count {
+  max-width: 400px;
+  max-height: 185px;
+}
+
+.descr__count img {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.descr__count-title {
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.descr__count-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}

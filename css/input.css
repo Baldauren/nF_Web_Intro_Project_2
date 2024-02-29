@@ -1,0 +1,74 @@
+/* * input ------------------------------------------- */
+.input__wrapper {
+  margin: 100px 0;
+}
+
+.input__title {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 32px;
+}
+.input__text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 32px;
+  width: 495px;
+}
+
+.input__form-wrapper {
+  display: flex;
+  font-display: row;
+}
+
+.input__form {
+  width: 619px;
+  height: 50px;
+  padding: 13px 75px 13px 13px;
+  border-radius: 12px;
+  border: 1px solid #e1dee7;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+.input__form-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.input__form-input {
+  width: 100%;
+  color: #000;
+
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.2;
+}
+.input__form-button {
+  padding: 16px 24px;
+  border-radius: 100px;
+  background: #712fff;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  border: none;
+  margin-left: 32px;
+}
+
+.input__form-button:hover {
+  padding: 16px 24px;
+  border-radius: 100px;
+  background: #712fff;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}

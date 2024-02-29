@@ -1,0 +1,24 @@
+/*! Import styles*/
+
+@import url(header.css);
+@import url(descr.css);
+@import url(promo.css);
+@import url(input.css);
+@import url(cv.css);
+@import url(footer.css);
+@import url(mobile.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px 80px 30px;
+  margin: 0 auto;
+  position: relative;
+}
+html {
+  font-family: "Kanit", sans-serif;
+  color: #000;
+}
